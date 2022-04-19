@@ -18,7 +18,7 @@ def print_attendees(attendance_list):
 	for attendance in attendance_list:
 		attendees += 1
     
-	print("Name: {0}\nAttendees:",attendees)
+	print("Attendees:",attendees)
 
 if __name__ == '__main__':
 	with multiprocessing.Manager() as manager:
